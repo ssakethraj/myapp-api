@@ -19,21 +19,9 @@ app.get("/", (req, res) => {
     // send a db query and store the data in a variable
     const data = [
         {
-            name: "Product 1",
-            desc: "Something about product"
+            name: "SOAL",
+            desc: "New release"
         },
-        {
-            name: "Product 2",
-            desc: "Something about product"
-        },
-        {
-            name: "Product 3",
-            desc: "Something about product"
-        },
-        {
-            name: "Product 4",
-            desc: "Something about product"
-        }
     ]
     res.json(data)
 });
